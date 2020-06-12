@@ -1,4 +1,4 @@
-programming = ('java','python','c++','php','ruby','golang')
+programming = ('java', 'python', 'c++', 'php', 'ruby', 'golang')
 print(programming)
 print(programming[1])
 print(programming[-1])
@@ -11,11 +11,14 @@ p.append('kotlin')
 pt = tuple(p)
 print(pt)
 
-print(100*'+')
+print(100 * '+')
 
-t1 = (1,2,3,4,5)
-t2 = ("a","b","c")
+t1 = (1, 2, 3, 4, 5)
+t2 = ("a", "b", "c")
 
 t3 = t1 + t2
 print(t3)
 print(t3[4])
+
+for i in range(1, len(programming)):
+    print(i, ':', programming[i])
