@@ -11,3 +11,4 @@ slardar.gainExp = 250
 
 lina.show_info()
 slardar.show_info()
+
